@@ -8,7 +8,7 @@ Queue::Queue(int size) {
 }
 Queue::~Queue() {
   cout << "deleting queue" << endl;
-  delete arr;
+  delete[] arr;
 }
 
 bool Queue::isEmpty() const {
